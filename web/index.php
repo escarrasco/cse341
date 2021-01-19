@@ -27,6 +27,9 @@
             </div>
             <div class="col-sm">
               <h2>Esther Silvia Carrasco Escobar</h2>
+              <p>I'm from Bolivia, a beautiful country with a wide cultural diversity.</p>
+              <p>My major is Web Development. I discovered that I join solving algorithm problems more than the design and visual part of a development project.</p>
+              <p>Another think I like is reading horror novels. Stephen King is one of my favorite writers.</p>
             </div>
           </div>
           <div class="row">
