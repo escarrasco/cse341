@@ -13,3 +13,32 @@ footer{
     background-color: #36454F /* */;
     color: whitesmoke;
 }
+
+#menu {
+    padding: 0;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 5%;
+}
+
+#menu li {
+    padding: 0 10px;
+    display: block; 
+    flex: 1 1 auto;
+}
+
+#menu li:last-child {
+    border-right: none;
+}
+nav{
+    text-align: center;
+    padding: 0 5px;
+    background-color: #903;
+    box-shadow: 0 5px 5px 0 rgb(3,3,3,0.3);
+}
+
+
+#menu li:first-child { 
+    display: none;
+}
