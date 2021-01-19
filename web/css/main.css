@@ -98,8 +98,7 @@ a {
     }
 
     main{
-    	margin-top: 5%;
-    	margin-bottom: 5%;
+    	margin: 5% auto;
     }
     .rounded-circle{
     	display: block;
@@ -144,8 +143,8 @@ a {
 	}
 
 	.flip-card {
-	  width: 500px;
-	  height: 500px;
+	  width: 360px;
+	  height: 360px;
 	  perspective: 1000px;
 	  transition: 0.3s;
 	}
@@ -174,11 +173,13 @@ a {
 	}
 
 	.flip-card-front {
-	  background-color: #bbb;
+	  background-color: #eddcd2;
 	  color: black;
+	  padding-top: 20px;
 	}
 
 	.flip-card-back {
+	  padding-top: 20px;
 	  background-color: #a5a58d;
 	  color: white;
 	  transform: rotateY(180deg);

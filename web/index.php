@@ -24,9 +24,8 @@
           <div class="row flip-card-front" id="profile">
             <div class="col-sm">
               <img class="rounded-circle" src="/img/profile.jpg" alt="My Profile Picture">
-            </div>
-            <div class="col-sm">
-              <p>Hi, I'm Esther.</p><button onclick="moreAbout()">More about me</button>
+              <p>Hi, I'm Esther.</p>
+              <p>Hover or click the card to know more about me</p>
             </div>
           </div>
           <div class="row flip-card-back" id="info">
