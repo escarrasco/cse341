@@ -11,7 +11,7 @@ a {
 	 font-weight: 300;
 	 text-transform: uppercase;
 	}
-	footer{
+	footer, footer a{
 	    text-align: center;
 	    background-color: #b7b7a4;
 	    color: whitesmoke;
@@ -38,7 +38,7 @@ a {
     }
    
     .logo img{
-    	width: 50%;
+    	width: 50px;
     }
 
     .logo a h1{
@@ -97,7 +97,21 @@ a {
         display: block !important; 
     }
 
+    main{
+    	margin-top: 5%;
+    	margin-bottom: 5%;
+    }
+    .rounded-circle{
+    	display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+    }
+
 @media screen and (min-width: 721px) {
+	.logo {
+        flex-direction: row;   
+    }
 	#menu {
 	    padding: 0;
 	    overflow: hidden;
