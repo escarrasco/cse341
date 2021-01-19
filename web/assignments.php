@@ -21,23 +21,12 @@
     </header>      
     <main>
         <div class="container">
-          <div class="row">
+          <div class="row">            
             <div class="col-sm">
-              <img src="/img/profile.jpg" alt="My Profile Picture">
-            </div>
-            <div class="col-sm">
-              <h2>Esther Silvia Carrasco Escobar</h2>
+              <h2>Coming soon</h2>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm">
-              <p>I'm from Bolivia, a beautiful country with a wide cultural diversity.</p>
-              <p>My major is Web Development. I discovered that I join solving algorithm problems more than the design and visual part of a development project.</p>
-              <p>Another think I like is reading horror novels. Stephen King is one of my favorite writers.</p>
-            </div>
-          </div>
-
-        </div>
+         
         
     </main>
     <footer>
