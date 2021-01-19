@@ -1,6 +1,6 @@
 body {
  font-family: 'Lora', serif;
-
+ color: #a5a58d;
 }
 a {
     text-decoration: none;
@@ -107,6 +107,9 @@ a {
 		width: 200px;
     }
 
+    .flip-card-front div h2 , .flip-card-front div p {
+    	display: none;
+    }
 @media screen and (min-width: 721px) {
 	.logo {
         flex-direction: row;   

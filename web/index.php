@@ -21,14 +21,14 @@
     </header>      
     <main class="flip-card">
         <div class="container flip-card-inner">
-          <div class="row flip-card-front" id="profile">
+          <div class="row flip-card-front">
             <div class="col-sm">
               <img class="rounded-circle" src="/img/profile.jpg" alt="My Profile Picture">
-              <p>Hi, I'm Esther.</p>
-              <p>Hover or click the card to know more about me</p>
+              <h2>Hi, I'm Esther.</h2>
+              <p>Hover the card to know more about me</p>
             </div>
           </div>
-          <div class="row flip-card-back" id="info">
+          <div class="row flip-card-back">
             <div class="col-sm">
               <h2>Esther Silvia Carrasco Escobar</h2>
               <p>I'm from Bolivia, a beautiful country with a wide cultural diversity.</p>
