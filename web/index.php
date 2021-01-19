@@ -11,7 +11,7 @@
     <title>CS 313 Assignment Portal | Esther S. Carrasco E. | BYU-Idaho</title>
     <meta name="author" content="Esther Carrasco | CS 313 BYU-Idaho">
     <meta name="description" content="Assignment portal page for Esther Carrasco in CS 313: Web Development II at Brigham Young University-Idaho.">
-    <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.ico"/>
     <link rel="stylesheet" href="/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
   </head>
