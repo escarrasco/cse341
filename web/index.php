@@ -19,21 +19,19 @@
     <header>
         <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/header.php'; ?> 
     </header>      
-    <main>
-        <div class="container">
-          <div class="row">
+    <main class="flip-card">
+        <div class="container flip-card-inner">
+          <div class="row flip-card-front" id="profile">
             <div class="col-sm">
               <img class="rounded-circle" src="/img/profile.jpg" alt="My Profile Picture">
             </div>
             <div class="col-sm">
-              <h2>Esther Silvia Carrasco Escobar</h2>
-              <p>I'm from Bolivia, a beautiful country with a wide cultural diversity.</p>
-              <p>My major is Web Development. I discovered that I join solving algorithm problems more than the design and visual part of a development project.</p>
-              <p>Another think I like is reading horror novels. Stephen King is one of my favorite writers.</p>
+              <p>Hi, I'm Esther.</p><button onclick="moreAbout()">More about me</button>
             </div>
           </div>
-          <div class="row">
+          <div class="row flip-card-back" id="info">
             <div class="col-sm">
+              <h2>Esther Silvia Carrasco Escobar</h2>
               <p>I'm from Bolivia, a beautiful country with a wide cultural diversity.</p>
               <p>My major is Web Development. I discovered that I join solving algorithm problems more than the design and visual part of a development project.</p>
               <p>Another think I like is reading horror novels. Stephen King is one of my favorite writers.</p>
