@@ -146,8 +146,8 @@ a {
 	}
 
 	.flip-card {
-	  width: 360px;
-	  height: 360px;
+	  width: 380px;
+	  height: 380px;
 	  perspective: 1000px;
 	  transition: 0.3s;
 	}
@@ -178,11 +178,11 @@ a {
 	.flip-card-front {
 	  background-color: #eddcd2;
 	  color: #676751;
-	  padding-top: 20px;
+	  padding-top: 30px;
 	}
 
 	.flip-card-back {
-	  padding-top: 20px;
+	  padding-top: 30px;
 	  background-color: #a5a58d;
 	  color: white;
 	  transform: rotateY(180deg);
