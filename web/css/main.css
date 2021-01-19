@@ -144,10 +144,10 @@ a {
 	}
 
 	.flip-card {
-	  background-color: transparent;
-	  width: 300px;
-	  height: 300px;
+	  width: 500px;
+	  height: 500px;
 	  perspective: 1000px;
+	  transition: 0.3s;
 	}
 
 	.flip-card-inner {
@@ -162,6 +162,7 @@ a {
 
 	.flip-card:hover .flip-card-inner {
 	  transform: rotateY(180deg);
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	}
 
 	.flip-card-front, .flip-card-back {
