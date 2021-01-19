@@ -2,43 +2,134 @@ body {
  font-family: 'Lora', serif;
  background-color: #fce1e0;
 }
+	h1, h2, h3, h4, h5, h6 {
+	 font-family: 'Montserrat', sans-serif;
+	 font-weight: 300;
+	 text-transform: uppercase;
+	}
+	footer{
+	    text-align: center;
+	    background-color: #36454F /* */;
+	    color: whitesmoke;
+	}
+    header {
+        margin: 10px 0px auto auto;
+        background-color: #fff;
+        box-shadow: 0 0 30px #808080;
+        text-align: center;
+        align-items: center;
 
-h1, h2, h3, h4, h5, h6 {
- font-family: 'Montserrat', sans-serif;
- font-weight: 300;
- text-transform: uppercase;
-}
-footer{
-    text-align: center;
-    background-color: #36454F /* */;
-    color: whitesmoke;
-}
+    }
+    .heading{
+        padding: 5px 5%;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;        
+        vertical-align: middle;
+        /*margin: 10px;*/
+    }
+   
 
-#menu {
-    padding: 0;
-    overflow: hidden;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0 5%;
-}
+    .logo a h2{
+        color: #903 !important;        
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-size: 14px !important;
+        margin-top: 0px !important;
+        width: 100%;
+        padding: 0px;
+    }
+  
 
-#menu li {
-    padding: 0 10px;
-    display: block; 
-    flex: 1 1 auto;
-}
+    #menu{
+        background-color: #903;
+        color: #f2f2f2;
+        list-style-type: none;
+        text-align: center;
+        margin: 0px;
+        text-decoration: none !important;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
 
-#menu li:last-child {
-    border-right: none;
-}
-nav{
-    text-align: center;
-    padding: 0 5px;
-    background-color: #903;
-    box-shadow: 0 5px 5px 0 rgb(3,3,3,0.3);
-}
+    #menu a:link, #menu a:visited {
+        text-decoration: none;
+        color: #f2f2f2;
+
+    }
+    
+    #menu li.active{
+        background-color: #808080 !important;
+    }
+    
+
+    #menu li:hover{
+        background-color: #909090; 
+        color: #f2f2f2;
+
+    }
+
+    footer{
+        background-color: #808080;
+        color: #f2f2f2;
+        font-size: 14px;
+        text-align: center;
+        padding: 5px 5%;
+    }
 
 
-#menu li:first-child { 
-    display: none;
+    #menu li:first-child { 
+        display: block;
+    }
+    #menu li { 
+        display: none;
+
+    }
+    #menu a {	
+        display: block;	
+        padding: .75rem;
+    }
+    
+    /* the onclick JS toggles the .repsonsive class from display none (#menu li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+	.responsive li { 
+        display: block !important; 
+    }
+
+@media screen and (min-width: 721px) {
+	#menu {
+	    padding: 0;
+	    overflow: hidden;
+	    flex-direction: row;
+	    justify-content: center;
+	    margin: 0 5%;
+	}
+
+	#menu li {
+	    padding: 0 10px;
+	    display: block; 
+	    flex: 1 1 auto;
+	}
+
+	#menu li:last-child {
+	    border-right: none;
+	}
+	nav{
+	    text-align: center;
+	    padding: 0 5px;
+	    background-color: #903;
+	    box-shadow: 0 5px 5px 0 rgb(3,3,3,0.3);
+	}
+
+
+	#menu li:first-child { 
+	    display: none;
+	}
+
 }
