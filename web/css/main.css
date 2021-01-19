@@ -187,4 +187,7 @@ a {
 	  color: white;
 	  transform: rotateY(180deg);
 	}
+	.flip-card-front div h2 , .flip-card-front div p {
+    	display: block;
+    }
 }
