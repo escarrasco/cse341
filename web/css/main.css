@@ -110,7 +110,7 @@ a {
     .flip-card-front div h2 , .flip-card-front div p {
     	display: none;
     }
-@media screen and (min-width: 721px) {
+@media screen and (min-width: 768px) {
 	.logo {
         flex-direction: row;   
         justify-content: center;
@@ -177,7 +177,7 @@ a {
 
 	.flip-card-front {
 	  background-color: #eddcd2;
-	  color: black;
+	  color: #676751;
 	  padding-top: 20px;
 	}
 
@@ -189,5 +189,6 @@ a {
 	}
 	.flip-card-front div h2 , .flip-card-front div p {
     	display: block;
+    	padding-top: 10px;
     }
 }
