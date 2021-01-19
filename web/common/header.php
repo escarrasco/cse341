@@ -1,10 +1,10 @@
 <div class="heading">
-<section class="logo">
+<div class="logo">
     <a href="/index.php" title="Visit my page">
     	<img src="/img/logo.png">
         <h1>CS 313 Assignment Portal</h1>        
     </a>
-</section>
+</div>
 </div>
 <nav>
 
