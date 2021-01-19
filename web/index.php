@@ -23,7 +23,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm">
-              <img src="/img/profile.jpg" alt="My Profile Picture">
+              <img class="rounded-circle" src="/img/profile.jpg" alt="My Profile Picture">
             </div>
             <div class="col-sm">
               <h2>Esther Silvia Carrasco Escobar</h2>

@@ -1,7 +1,11 @@
 body {
  font-family: 'Lora', serif;
- background-color: #fce1e0;
+
 }
+a {
+    text-decoration: none;
+}
+
 	h1, h2, h3, h4, h5, h6 {
 	 font-family: 'Montserrat', sans-serif;
 	 font-weight: 300;
@@ -9,7 +13,7 @@ body {
 	}
 	footer{
 	    text-align: center;
-	    background-color: #36454F /* */;
+	    background-color: #b7b7a4;
 	    color: whitesmoke;
 	}
     header {
@@ -33,20 +37,18 @@ body {
         /*margin: 10px;*/
     }
    
+    .logo img{
+    	width: 50%;
+    }
 
-    .logo a h2{
-        color: #903 !important;        
+    .logo a h1{
+        color: #a5a58d !important;        
         font-family: 'Montserrat', sans-serif;
-        font-style: italic;
-        font-size: 14px !important;
-        margin-top: 0px !important;
-        width: 100%;
-        padding: 0px;
     }
   
 
     #menu{
-        background-color: #903;
+        background-color: #cb997e;
         color: #f2f2f2;
         list-style-type: none;
         text-align: center;
@@ -69,19 +71,12 @@ body {
     
 
     #menu li:hover{
-        background-color: #909090; 
+        background-color: #dcbda7;
         color: #f2f2f2;
 
     }
 
-    footer{
-        background-color: #808080;
-        color: #f2f2f2;
-        font-size: 14px;
-        text-align: center;
-        padding: 5px 5%;
-    }
-
+    
 
     #menu li:first-child { 
         display: block;
@@ -123,7 +118,7 @@ body {
 	nav{
 	    text-align: center;
 	    padding: 0 5px;
-	    background-color: #903;
+	    background-color: #cb997e;
 	    box-shadow: 0 5px 5px 0 rgb(3,3,3,0.3);
 	}
 
